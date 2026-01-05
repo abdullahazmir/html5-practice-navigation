@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex practice</title>
+    <style>
+        .container{
+               display: flex;
+        }
+        .container div{
+            border: 10px solid red;
+            width: 50px;
+            height: 50px;
+           
+        }
+        .box-container1{
+            border: 10px solid blue;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .box-container{
+            border: 2px solid saddlebrown;
+            display: flex;
+            gap: 20px;
+            font-size: 2em;
+            
+        }
+        .task{
+            border: 10px solid black;
+            height: 100px;
+            width: 200px;
+            weight: 100px;
+            font-weight: 2em;
+
+        }
+        .task-container{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>
+
+    <!-- .box-container{user-$}*6 -->
+  <div class="box-container1">
+     <div class="box-container">user-1</div>
+     <div class="box-container">user-2</div>
+     <div class="box-container">user-3</div>
+     <div class="box-container">user-4</div>
+     <div class="box-container">user-5</div>
+     <div class="box-container">user-6</div>
+  </div>
+
+  <div class="task-container">
+   <!-- .task{task-$}*20 -->
+    <div class="task">task-1</div>
+    <div class="task">task-2</div>
+    <div class="task">task-3</div>
+    <div class="task">task-4</div>
+    <div class="task">task-5</div>
+    <div class="task">task-6</div>
+    <div class="task">task-7</div>
+    <div class="task">task-8</div>
+    <div class="task">task-9</div>
+    <div class="task">task-10</div>
+    <div class="task">task-11</div>
+    <div class="task">task-12</div>
+    <div class="task">task-13</div>
+    <div class="task">task-14</div>
+    <div class="task">task-15</div>
+    <div class="task">task-16</div>
+    <div class="task">task-17</div>
+    <div class="task">task-18</div>
+    <div class="task">task-19</div>
+    <div class="task">task-20</div>
+  </div>
+</body>
+</html>

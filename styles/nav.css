@@ -1,0 +1,15 @@
+nav ul{
+   justify-content: space-around;
+    display: flex;
+}
+nav li{
+    margin-right: 10px;
+     list-style: none;
+
+}
+nav li a{
+    text-decoration: none;
+}
+nav li:hover{
+    background-color: gray;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pitha form</title>
+    <style>
+        .basic-info label{
+            background-color: aquamarine;
+        }
+    </style>
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+<body>
+     <header>
+            <nav>
+                <ul>
+                    <li><a href="blogs.html" >Blogs</a></li>
+                    <li><a href="video.html">video </a></li>
+                    <li><a href="table.html">table</a></li>
+                    <li><a href="form.html">form</a></li>
+                    <li><a href="center.html">center</a></li>
+                    <li><a href="auto.html">auto</a></li>
+                </ul>
+            </nav>
+        </header>
+    <main>
+        <section>
+            <h1> jamaler ma er chitoy pitha</h1>
+            <form >
+               <fieldset class="basic-info">
+                <legend>your basic info</legend>
+                 <label for="name">Your Name</label>
+                <input type="text" name="" id="name"><br>
+
+                <label for="phone">Your phone number</label>
+                <input type="number" name="" id="phone"><br>
+
+                <label for="email">Your email</label>
+                <input type="email" name="" id="email">
+
+               </fieldset>
+               
+                <fieldset>
+                    <legend>pitha</legend>
+                    <input type="radio" name="pitha" id="chitoy">
+                    <label for="chitoy">chitoy</label>
+                    
+                    <input type="radio" name="pitha" id="vapa">
+                    <label for="vapa">vapa</label>
+
+                    <input type="radio" name="pitha" id="puli">
+                    <label for="puli">puli</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>vorta</legend>
+                    <input type="checkbox" name="vorta" id="alu">
+                    <label for="alu">alu</label><br>
+                    <input type="checkbox" name="vorta" id="shutki">
+                    <label for="shutki">shutki</label><br>
+                    <input type="checkbox" name="vorta" id="dal">
+                    <label for="dal">dal</label>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>more info to submit</legend>
+                  <textarea name="" id="" cols="5" rows="5"></textarea>
+                </fieldset>
+
+                <input type="submit" value="submit"> <br><input type="reset" value="reset">
+            </form>
+
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
